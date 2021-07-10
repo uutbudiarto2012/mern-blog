@@ -1,0 +1,32 @@
+.auth-page{
+    display: flex;
+    height: 100vh;
+    .left{
+        flex: 8;
+        .bg-register{
+            height: 100vh;
+            width: 100%;
+        }
+    }
+    .right{
+        flex: 4;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .auth-page{
+        .left{
+            display: none;
+        }
+        .right{
+            background-image: url('../../assets/image/bg-login.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+    }
+ }

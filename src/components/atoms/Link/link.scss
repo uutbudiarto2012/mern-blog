@@ -1,0 +1,12 @@
+.linkWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .link{
+        color : #27b0f0;
+        cursor: pointer;
+        &:hover{
+            color: #0986c0;
+        }
+    }
+}

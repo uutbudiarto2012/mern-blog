@@ -1,0 +1,21 @@
+.btn{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 0;
+    border: 1px solid #888;
+    transition: all ease-in-out .2s;
+    min-width: 150px;
+    &.primary{
+        background-color: #27b0f0;
+        border: 1px solid #27b0f0;
+        color: #FFF;
+    }
+    &:hover{
+        transform: translate(-2px,-2px);
+        box-shadow: 2px 2px 0 #025981;
+    }
+}

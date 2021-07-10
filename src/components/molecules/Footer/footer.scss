@@ -1,0 +1,29 @@
+.footerWrapper{
+    background-color: #27b0f0;
+    display: flex;
+    flex-direction: column;
+    .copyRight{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+        color: #d6f0fc;
+        background-color: #0097dd;
+        font-size: 14px;
+    }
+    .socialWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        border-radius: 0 0 5px 5px;
+        .iconSocial{
+            display: flex;
+            height: 30px;
+            width: 30px;
+            object-fit: cover;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    }
+}

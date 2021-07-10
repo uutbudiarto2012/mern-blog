@@ -1,0 +1,9 @@
+.menuItem{
+    font-weight: 600;
+    color: #EEE;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    &:hover{
+        color: #FFF;
+    }
+}

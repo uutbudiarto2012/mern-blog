@@ -1,0 +1,18 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27b0f0;
+    padding: 5px 5%;
+    .left{
+        .my-logo{
+            font-weight: 700;
+            font-size: 33px;
+            color: #FFF;
+            text-shadow: 1px 1px 1px #000;
+        }
+    }
+    .right{
+        display: flex;
+    }
+}

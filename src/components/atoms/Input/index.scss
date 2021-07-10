@@ -1,0 +1,19 @@
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FFF;
+}
+.labelInput{
+    position: absolute;
+    top: -15px;
+    background-color: #FFF;
+    padding: 0 5px;
+}
+.textInput{
+    border: none;
+    outline: none;
+}

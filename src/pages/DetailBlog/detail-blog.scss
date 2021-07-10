@@ -1,0 +1,29 @@
+.detail-blog-wrapper {
+    padding: 5px;
+  .image-blog {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  .title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .autor {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  .content {
+    background-color: #fefeff;
+    margin-top: 20px;
+    p{
+        line-height: 1.5rem;
+        text-indent: 5rem;
+    }
+  }
+  .btnBackToHome{
+    width: 150px;
+  }
+}

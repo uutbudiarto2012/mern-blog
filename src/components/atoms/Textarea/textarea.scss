@@ -1,0 +1,17 @@
+.textarea-wrapper{
+    background-color: #fefeff;
+    border: 1px solid #888;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    .textarea{
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        resize: none;
+        outline: none;
+        line-height: 1.2rem;
+        font-size: 16px;
+    }
+}
